@@ -1,0 +1,12 @@
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\bin\Debug\net5.0\EntityFrameworkExample.Library.deps.json
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\bin\Debug\net5.0\EntityFrameworkExample.Library.dll
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\bin\Debug\net5.0\ref\EntityFrameworkExample.Library.dll
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\bin\Debug\net5.0\EntityFrameworkExample.Library.pdb
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\EntityFrameworkExample.Library.csprojAssemblyReference.cache
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\EntityFrameworkExample.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\EntityFrameworkExample.Library.AssemblyInfoInputs.cache
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\EntityFrameworkExample.Library.AssemblyInfo.cs
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\EntityFrameworkExample.Library.csproj.CoreCompileInputs.cache
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\EntityFrameworkExample.Library.dll
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\ref\EntityFrameworkExample.Library.dll
+C:\Users\tales.rodrigues\source\repos\EntityFrameworkExample\EntityFrameworkExample.Library\obj\Debug\net5.0\EntityFrameworkExample.Library.pdb
