@@ -47,6 +47,9 @@ namespace EntityFrameworkExample
 
             //#endregion
 
+
+            //var sales = saleRepository.Get(2);
+
         }
     }
 }

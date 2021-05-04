@@ -1,6 +1,7 @@
 ﻿using EntityFrameworkExample.Library.Data.Contexts;
 using EntityFrameworkExample.Library.Data.Entities;
 using EntityFrameworkExample.Library.Data.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
 namespace EntityFrameworkExample.Library.Data.Repositories
@@ -30,7 +31,9 @@ namespace EntityFrameworkExample.Library.Data.Repositories
 
         public IEnumerable<PromotionEntity> GetAll()
         {
-            return context.Promotions;
+            return context.Promotions
+                .Include(p => p.Products)
+                .ThenInclude(pp => pp.Product);
         }
 
         public PromotionEntity Update(PromotionEntity entity)

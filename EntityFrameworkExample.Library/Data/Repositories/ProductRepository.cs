@@ -1,7 +1,9 @@
 ﻿using EntityFrameworkExample.Library.Data.Contexts;
 using EntityFrameworkExample.Library.Data.Entities;
 using EntityFrameworkExample.Library.Data.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace EntityFrameworkExample.Library.Data.Repositories
 {
@@ -25,7 +27,7 @@ namespace EntityFrameworkExample.Library.Data.Repositories
 
         public ProductEntity Get(int id)
         {
-            return context.Products.Find(id);
+            return context.Products.Include(s => s.Sales).FirstOrDefault(p => p.Id == id);
         }
 
         public IEnumerable<ProductEntity> GetAll()

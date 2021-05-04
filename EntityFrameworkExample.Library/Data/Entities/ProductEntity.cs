@@ -16,6 +16,7 @@ namespace EntityFrameworkExample.Library.Data.Entities
         [Column("quantity")]
         public int Quantity { get; set; }
         public IList<PromotionProductEntity> Promotions { get; set; }
+        public IList<SaleEntity> Sales { get; set; }
 
         public ProductEntity()
         {
